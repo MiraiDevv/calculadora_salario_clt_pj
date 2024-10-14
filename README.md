@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💼 Salário CLT x PJ
 
-## Getting Started
+Este projeto é uma aplicação web desenvolvida com [Next.js](https://nextjs.org/), onde você pode comparar os ganhos entre regime de contratação CLT e PJ (Pessoa Jurídica). Utilizamos o [TailwindCSS](https://tailwindcss.com/) para a estilização e recursos de React para a criação dos componentes da interface.
 
-First, run the development server:
+## 📦 Instruções de Instalação
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Siga as etapas abaixo para rodar o projeto em sua máquina:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ⚙️ Requisitos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ✅ Node.js (versão 14 ou superior)
+- ✅ npm ou yarn como gerenciador de pacotes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📥 Passos para instalar
 
-## Learn More
+1. **Clone o repositório**:
 
-To learn more about Next.js, take a look at the following resources:
+   ```sh
+   git clone <URL_DO_REPOSITORIO>
+   cd salario-clt-pj
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Instale as dependências do projeto**:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   Com npm:
+   ```sh
+   npm install
+   ```
+   Ou com yarn:
+   ```sh
+   yarn install
+   ```
 
-## Deploy on Vercel
+3. **Execute o projeto em ambiente de desenvolvimento**:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Com npm:
+   ```sh
+   npm run dev
+   ```
+   Ou com yarn:
+   ```sh
+   yarn dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Abra [http://localhost:3000](http://localhost:3000) no navegador** para visualizar a aplicação.
+
+### 📜 Scripts disponíveis
+
+- `dev`: Executa a aplicação em modo de desenvolvimento.
+- `build`: Compila a aplicação para produção.
+- `start`: Executa a versão de produção do aplicativo.
+
+### 🔧 Configurações adicionais
+
+- As fontes utilizadas (GeistMonoVF e GeistVF) estão localizadas na pasta `src/app/fonts` e já estão incluídas no projeto.
+- Para ajustar as cores e o tema da aplicação, você pode modificar os arquivos relacionados ao tema (`theme-provider.tsx`, `theme-toggle.tsx`) na pasta `src/components`.
+
+## 🗂️ Estrutura do Projeto
+
+- `src/app`: Contém os arquivos principais da aplicação, como `layout.tsx`, `page.tsx` e arquivos de estilo.
+- `src/components`: Inclui componentes reutilizáveis como botões, inputs e componentes de temas.
+- `public`: Inclui arquivos públicos, como o `favicon.ico`.
+
+## 🛠️ Tecnologias Utilizadas
+
+- ⚡ [Next.js](https://nextjs.org/)
+- 🎨 [TailwindCSS](https://tailwindcss.com/)
+- 📘 [TypeScript](https://www.typescriptlang.org/)
+- 🖌️ [Shadcn](https://ui.shadcn.com/)
+
+## 🤝 Contribuição
+
+Sinta-se à vontade para fazer um fork deste repositório e sugerir melhorias por meio de pull requests.
+
+## 📄 Licença
+
+Este projeto é distribuído sob a licença MIT. Para mais detalhes, consulte o arquivo `LICENSE`.
